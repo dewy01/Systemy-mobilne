@@ -70,7 +70,6 @@ class MainActivity : ComponentActivity() {
                     }
 
                     nextButton.setOnClickListener {
-                        currentIndex = (currentIndex + 1) % questions.size
                         setNextQuestion()
                     }
 
