@@ -1,0 +1,72 @@
+• Po pierwszym uruchomieniu aplikacji
+	onCreate
+	onStart
+	onResume
+
+• Po wciśnięciu przycisku Cofnij
+	onPause
+	onStop
+	
+• Po ponownym uruchomieniu aplikacji
+	onCreate
+	onStart
+	onResume
+
+• Po wciśnięciu przycisku ekranu głównego Home
+	onPause
+	onStop
+
+• Po powrocie do aplikacji z listy ostatnio używanych aplikacji
+	onStart
+	onResume
+
+• Po wyłączeniu
+	onPause
+	onStop
+	OnDestroy
+
+• Po obróceniu ekranu na włączonej aplikacji
+	onPause
+	onStop
+	OnDestroy
+
+	onCreate
+	onStart
+	onResume
+
+Pytanie wraca do 1 z listy pytań, reszta logów się nie zmienia
+
+
+• Po dodaniu onSaveInstance i obróceniu ekranu
+	onPause
+	onStop
+	Wywołana została metoda: OnSaveInstanceState
+	OnDestroy
+
+	onCreate
+	onStart
+	onResume
+
+• Po wciśnięciu przycisku ekranu głównego Home
+	onPause
+	onStop
+	Wywołana została metoda: OnSaveInstanceState
+
+• Po wciśnięciu przycisku Cofnij
+	onPause
+	onStop
+	Wywołana została metoda: OnSaveInstanceState
+
+
+• Po wyłączeniu
+	onPause
+	onStop
+	Wywołana została metoda: OnSaveInstanceState
+	OnDestroy
+
+OD teraz aplikacja zapisuje stany takie jak 
+- czy odpowiedz zostala pokazana dla danego pytania
+- ilosc punktow dla instacji 
+- stan pytania dla instancji aplikacji
+
+
