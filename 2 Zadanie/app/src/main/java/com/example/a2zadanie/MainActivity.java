@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private Button trueButton;
     private Button falseButton;
     private Button nextButton;
-    private Button answerButton;
+    private Button promptButton;
     private TextView questionTextView;
     private Question[] questions = new Question[]{
             new Question(R.string.q_activity, true),
@@ -60,9 +60,9 @@ public class MainActivity extends AppCompatActivity {
         falseButton = findViewById(R.id.false_button);
         nextButton = findViewById(R.id.next_button);
         questionTextView = findViewById(R.id.question_text_view);
-        answerButton = findViewById(R.id.answer_Button);
+        promptButton = findViewById(R.id.answer_Button);
 
-        answerButton.setOnClickListener((v) -> {
+        promptButton.setOnClickListener((v) -> {
             Intent intent = new Intent(MainActivity.this, PromptActivity.class);
             boolean correctAnswer = questions[currentIndex].isTrueAnswer();
             intent.putExtra(KEY_EXTRA_ANSWER, correctAnswer);

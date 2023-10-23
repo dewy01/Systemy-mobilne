@@ -5,17 +5,17 @@ E
 java:S1604M"(Make this anonymous inner class a lambda(éäó‚8ô„“¹µ1
 J
 java:S1604S"(Make this anonymous inner class a lambda(ÈŒèâüÿÿÿÿ8ô„“¹µ1
-}
-java:S1450"[Remove the "answerButton" field and declare it as a local variable in the relevant methods.(Àò¡ıÿÿÿÿ8¹öš¹µ1
 w
 java:S1450"ZRemove the "falseButton" field and declare it as a local variable in the relevant methods.(Ôœ8«…“¹µ1
 {
 java:S1450"YRemove the "nextButton" field and declare it as a local variable in the relevant methods.(º€ü‰ùÿÿÿÿ8¬…“¹µ1
+}
+java:S1450"[Remove the "promptButton" field and declare it as a local variable in the relevant methods.(Â€ªƒÿÿÿÿÿ8ı·óçµ1
 {
 java:S1450"YRemove the "trueButton" field and declare it as a local variable in the relevant methods.(Ãş×Äüÿÿÿÿ8¬…“¹µ1
 L
-java:S1611A"/Remove the parentheses around the "v" parameter(Á˜¹¼8º…“¹µ1
+java:S1611A"/Remove the parentheses around the "v" parameter(ÒÑŞ8º…“¹µ1
 [
-java:S1874E">Remove this use of "startActivityForResult"; it is deprecated.(îü‰”8½…“¹µ1
+java:S1874E">Remove this use of "startActivityForResult"; it is deprecated.(îü‰”8’¸óçµ1
 g
 java:S1874"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(¹Î¾8Ä…“¹µ1
